@@ -7,31 +7,32 @@
 
 <div align="center"> 
   <strong>NodeJS application pushing weather notification over Telegram</strong>
+
+  <br>
+
+  <p align="center">
+    <a href="https://github.com/richierich25/weather-bot/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/richierich25/weather-bot?color=blue" alt="GitHub License">
+    </a>
+      <img src="https://github.com/richierich25/weather-bot/workflows/Weather%20Bot/badge.svg" alt="Weather Bot">
+    <img src="https://img.shields.io/github/languages/code-size/richierich25/weather-bot" alt="GitHub code size in bytes">
+    <img src="https://img.shields.io/github/commit-activity/w/richierich25/weather-bot" alt="GitHub commit activity">
+    <a href="https://github.com/richierich25/weather-bot/issues">
+      <img src="https://img.shields.io/github/issues/richierich25/weather-bot" alt="GitHub issues">
+    </a>
+    <a href="https://github.com/richierich25/weather-bot/releases">
+      <img src="https://img.shields.io/github/v/release/richierich25/weather-bot.svg?style=flat" alt="GitHub Release">
+    </a>
+      <a href="https://github.com/richierich25/weather-bot/stargazers">
+      <img src="https://img.shields.io/github/stars/richierich25/weather-bot" alt="GitHub License">
+    </a>
+  </p> <br><br>
+
+  <p>
+  The application is powered by Github Actions and developed in Node.js to allow users to push custom weather related notification to their telegram channels using a bot.
+  </p><br>
+
 </div>
-
-<br>
-
-<p align="center">
-  <a href="https://github.com/richierich25/weather-bot/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/richierich25/weather-bot?color=blue" alt="GitHub License">
-  </a>
-    <img src="https://github.com/richierich25/weather-bot/workflows/Weather%20Bot/badge.svg" alt="Weather Bot">
-  <img src="https://img.shields.io/github/languages/code-size/richierich25/weather-bot" alt="GitHub code size in bytes">
-  <img src="https://img.shields.io/github/commit-activity/w/richierich25/weather-bot" alt="GitHub commit activity">
-  <a href="https://github.com/richierich25/weather-bot/issues">
-    <img src="https://img.shields.io/github/issues/richierich25/weather-bot" alt="GitHub issues">
-  </a>
-  <a href="https://github.com/richierich25/weather-bot/releases">
-    <img src="https://img.shields.io/github/v/release/richierich25/weather-bot.svg?style=flat" alt="GitHub Release">
-  </a>
-    <a href="https://github.com/richierich25/weather-bot/stargazers">
-    <img src="https://img.shields.io/github/stars/richierich25/weather-bot" alt="GitHub License">
-  </a>
-</p>
-
-<br>
-<br>
-The application is powered by Github Actions and developed in Node.js to allow users to push custom weather related notification to their telegram channels using a bot.
 
 ![image](https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif)
 <p align="center"><a href="https://developerfolio.js.org/">To view this LIVE</a></p>
