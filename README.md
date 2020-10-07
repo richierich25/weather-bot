@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <a href="https://www.richierich25.com" target="_blank"><img alt="Open Sauced" src="https://user-images.githubusercontent.com/34006942/95367062-e827e000-08f1-11eb-8e6a-b28b6d0e9690.png" width="300px"></a>
+  <a href="https://www.richierich25.com"><img alt="Open Sauced" src="https://user-images.githubusercontent.com/34006942/95367062-e827e000-08f1-11eb-8e6a-b28b6d0e9690.png" width="300px"></a>
   <h1>⚡️ Weather Bot ⚡️ </h1>  
   <strong>NodeJS application pushing weather notification over Telegram</strong>
 </div>
