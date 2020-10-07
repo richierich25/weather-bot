@@ -1,17 +1,32 @@
-# Weather Bot ⚡️
+<div align="center">
+  <br>
+  <a href="https://www.richierich25.com" target="_blank"><img alt="Open Sauced" src="https://user-images.githubusercontent.com/34006942/95367062-e827e000-08f1-11eb-8e6a-b28b6d0e9690.png" width="300px"></a>
+  <h1>⚡️ Weather Bot ⚡️ </h1>  
+  <strong>NodeJS application pushing weather notification over Telegram</strong>
+</div>
 
-[![GitHub](https://img.shields.io/github/license/richierich25/weather-bot?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/richierich25/weather-bot)](https://github.com/saadpasta/developerFolio/stargazers)
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors)
+<br>
 
-## A NodeJS application pushing weather notification over Telegram powered by Github Actions
+<p align="center">
+  <a href="https://github.com/richierich25/weather-bot/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/richierich25/weather-bot?color=blue" alt="GitHub License">
+  </a>
+  <img src="https://img.shields.io/github/languages/code-size/richierich25/weather-bot" alt="GitHub code size in bytes">
+  <img src="https://img.shields.io/github/commit-activity/w/richierich25/weather-bot" alt="GitHub commit activity">
+  <a href="https://github.com/richierich25/weather-bot/issues">
+    <img src="https://img.shields.io/github/issues/richierich25/weather-bot" alt="GitHub issues">
+  </a>
+  <a href="https://github.com/richierich25/weather-bot/releases">
+    <img src="https://img.shields.io/github/v/release/richierich25/weather-bot.svg?style=flat" alt="GitHub Release">
+  </a>
+    <a href="https://github.com/richierich25/weather-bot/stargazers">
+    <img src="https://img.shields.io/github/stars/richierich25/weather-bot" alt="GitHub License">
+  </a>
+</p>
 
-**[To view this LIVE](https://developerfolio.js.org/)**
-
-<!-- <div>
-  <img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
-</div> -->
 ![image](https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif)
+<p align="center"><a href="https://developerfolio.js.org/">To view this LIVE</a></p>
+
 
 Feel free to use it as-is or customize it as much as you want.
 
@@ -21,16 +36,17 @@ If you created something awesome and want to contribute then feel free to open a
 
 ## Table of Contents
 
-- [Sections](#sections)
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
-- [Linking portfolio to Github](#linking-portfolio-to-github)
+- [Running the Application](#running-the-application)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [For the Future](#for-the-future)
 - [Contributors](#project-maintainers)
 
 ## Getting Started
+
+<img align="right" src="https://i.ibb.co/CJfW18H/ship.gif" width="200"/>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -46,7 +62,7 @@ You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/downl
 
 From your command line, clone and run `weather-bot`
 
-## Linking Portfolio to Github
+## Running the Application
 
 Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token).
 
@@ -109,13 +125,14 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 <table>
   <tr>
-    <td align="center"><a href="htts://www.richierich25.com"><img src="![richard](https://user-images.githubusercontent.com/34006942/95360107-9595f600-08e8-11eb-8467-60ae47976f26.jpg)" width="100px;" alt=""/><br /><sub><b>Richard Abraham</b></sub></a></td>
+    <td align="center"><a href="htts://www.richierich25.com">
+    <img src="https://user-images.githubusercontent.com/34006942/95364922-0e984c00-08ef-11eb-9e3b-48cfd6f844e7.jpg" width="100px;" alt=""/><br /><sub><b>Richard Abraham</b></sub></a></td>
   </tr>
 </table>
 
-## Contributors
+## 🤝 Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+We encourage you to contribute to Open Sauced! Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines about how to proceed. Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <table>
