@@ -29,6 +29,10 @@
   </a>
 </p>
 
+<br>
+<br>
+The application is powered by Github Actions and developed in Node.js to allow users to push custom weather related notification to their telegram channels using a bot.
+
 ![image](https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif)
 <p align="center"><a href="https://developerfolio.js.org/">To view this LIVE</a></p>
 
