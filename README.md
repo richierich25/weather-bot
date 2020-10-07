@@ -6,9 +6,6 @@
 ======================
 
 <div align="center"> 
-  <strong>NodeJS application pushing weather notification over Telegram</strong>
-
-  <br>
 
   <p align="center">
     <a href="https://github.com/richierich25/weather-bot/blob/main/LICENSE">
