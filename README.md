@@ -1,7 +1,11 @@
-<div align="center">
-  <br>
-  <a href="https://www.richierich25.com" target="_blank"><img alt="Open Sauced" src="https://user-images.githubusercontent.com/34006942/95367062-e827e000-08f1-11eb-8e6a-b28b6d0e9690.png" width="200px"></a>
-  <h1>⚡️ Weather Bot ⚡️ </h1>  
+<a href="https://www.richierich25.com" target="_blank">
+    <img alt="Weather Bot" src="https://user-images.githubusercontent.com/34006942/95367062-e827e000-08f1-11eb-8e6a-b28b6d0e9690.png" title="Weather Bot" align="right" width="200px" />
+</a>
+
+⚡️ Weather Bot ⚡️
+======================
+
+<div align="center"> 
   <strong>NodeJS application pushing weather notification over Telegram</strong>
 </div>
 
@@ -11,6 +15,7 @@
   <a href="https://github.com/richierich25/weather-bot/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/richierich25/weather-bot?color=blue" alt="GitHub License">
   </a>
+    <img src="https://github.com/richierich25/weather-bot/workflows/Weather%20Bot/badge.svg" alt="Weather Bot">
   <img src="https://img.shields.io/github/languages/code-size/richierich25/weather-bot" alt="GitHub code size in bytes">
   <img src="https://img.shields.io/github/commit-activity/w/richierich25/weather-bot" alt="GitHub commit activity">
   <a href="https://github.com/richierich25/weather-bot/issues">
@@ -113,7 +118,7 @@ For more information, read [hosting on Netlify](https://docs.netlify.com/#discov
 - [Nodejs](https://nodejs.org/)
 - [Javascript](https://www.w3schools.com/js/DEFAULT.asp)
 
-## For the Future
+## 🚀 For the Future
 
 If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/richierich25/weather-bot/pulls).
 
