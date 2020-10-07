@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <a href="https://www.richierich25.com" target="_blank"><img alt="Open Sauced" src="https://user-images.githubusercontent.com/34006942/95367062-e827e000-08f1-11eb-8e6a-b28b6d0e9690.png" width="300px"></a>
+  <a href="https://www.richierich25.com" target="_blank"><img alt="Open Sauced" src="https://user-images.githubusercontent.com/34006942/95367062-e827e000-08f1-11eb-8e6a-b28b6d0e9690.png" style="width:200px;height:auto"></a>
   <h1>⚡️ Weather Bot ⚡️ </h1>  
   <strong>NodeJS application pushing weather notification over Telegram</strong>
 </div>
@@ -34,7 +34,7 @@ But if you want to **contribute** and make this much better for other developer 
 
 If you created something awesome and want to contribute then feel free to open a [Pull Request](https://github.com/richierich25/weather-bot/pulls).
 
-## Table of Contents
+## 📙 Table of Contents
 
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
@@ -44,7 +44,7 @@ If you created something awesome and want to contribute then feel free to open a
 - [For the Future](#for-the-future)
 - [Contributors](#project-maintainers)
 
-## Getting Started
+## 📖 Getting Started
 
 <img align="right" src="https://i.ibb.co/CJfW18H/ship.gif" width="200"/>
 
@@ -58,11 +58,11 @@ You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/downl
     git@2.17.1 or higher
 ```
 
-## How To Use
+## 🧪 How To Use
 
 From your command line, clone and run `weather-bot`
 
-## Running the Application
+## 💨 Running the Application
 
 Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token).
 
@@ -90,7 +90,7 @@ Generate a Github personal access token following these [instructions](https://h
 
   Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
-## Deployment
+## 🖥️ Deployment
 
 When you are done with the setup, you should host your website online.
 We highly recommend to read through the [Deploying on Github Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) docs.
@@ -132,7 +132,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 ## 🤝 Contributors
 
-We encourage you to contribute to Open Sauced! Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines about how to proceed. Thanks goes to these wonderful people:
+We encourage you to contribute. Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines on how to proceed. Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <table>
