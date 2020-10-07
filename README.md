@@ -5,6 +5,8 @@
 ⚡️ Weather Bot ⚡️
 ======================
 
+  <h4 align="center">A NodeJS application that pushes weather notification over Telegram</h4>
+
 <div align="center"> 
 
   <p align="center">
@@ -23,7 +25,18 @@
       <a href="https://github.com/richierich25/weather-bot/stargazers">
       <img src="https://img.shields.io/github/stars/richierich25/weather-bot" alt="GitHub License">
     </a>
-  </p> <br><br>
+  </p>
+
+  <p align="center">
+    <a href="#getting-started">Getting Started</a> •
+    <a href="#usage">Usage</a> •
+    <a href="#running-the-application">Running the Application</a> •
+    <a href="#deployment">Deployment</a> •
+    <a href="#technologies-used">Technologies Used</a> •
+    <a href="#for-the-future">For the Future</a> •
+    <a href="#project-maintainers">Project Maintainers</a> •
+    <a href="#contributing">Contributing</a> •
+  </p><br><br>
 
   <p>
   The application is powered by Github Actions and developed in Node.js to allow users to push custom weather related notification to their telegram channels using a bot.
@@ -34,22 +47,12 @@
 ![image](https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif)
 <p align="center"><a href="https://developerfolio.js.org/">To view this LIVE</a></p>
 
-
 Feel free to use it as-is or customize it as much as you want.
 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/richierich25/weather-bot/issues).
 
 If you created something awesome and want to contribute then feel free to open a [Pull Request](https://github.com/richierich25/weather-bot/pulls).
 
-## 📙 Table of Contents
-
-- [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
-- [Running the Application](#running-the-application)
-- [Deployment](#deployment)
-- [Technologies Used](#technologies-used)
-- [For the Future](#for-the-future)
-- [Contributors](#project-maintainers)
 
 ## 📖 Getting Started
 
@@ -65,7 +68,7 @@ You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/downl
     git@2.17.1 or higher
 ```
 
-## 🧪 How To Use
+## 🧪 Usage
 
 From your command line, clone and run `weather-bot`
 
@@ -107,18 +110,10 @@ We highly recommend to read through the [Deploying on Github Pages](https://docs
 - Using the Personal Access Token you placed in the `.env` file earlier create a [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) called `OPEN_SOURCE_TOKEN` where the value matches the token value from the `.env` file in your local workspace.
 - When you are done with the configuration, we highly recommend to read through the [Github Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
 
-### Deploying to Netlify
+## 📙 Technologies Used
 
-You could also host directly with Netlify by linking your own repository.
-
-![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)
-
-For more information, read [hosting on Netlify](https://docs.netlify.com/#discover-netlify).
-
-## Technologies Used
-
-- [Nodejs](https://nodejs.org/)
-- [Javascript](https://www.w3schools.com/js/DEFAULT.asp)
+- NodeJS
+- Javascript
 
 ## 🚀 For the Future
 
@@ -137,9 +132,9 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
   </tr>
 </table>
 
-## 🤝 Contributors
+## 🤝 Contributing
 
-We encourage you to contribute. Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines on how to proceed. Thanks goes to these wonderful people:
+We encourage you to contribute. Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines on how to proceed.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <table>
