@@ -28,9 +28,8 @@
   </p>
 
   <p align="center">
-    <a href="#getting-started">Getting Started</a> •
     <a href="#usage">Usage</a> •
-    <a href="#running-the-application">Running the Application</a> •
+    <a href="#configuration">Configuration</a> •
     <a href="#deployment">Deployment</a> •
     <a href="#technologies-used">Technologies Used</a> •
     <a href="#for-the-future">For the Future</a> •
@@ -53,8 +52,7 @@ But if you want to **contribute** and make this much better for other developer 
 
 If you created something awesome and want to contribute then feel free to open a [Pull Request](https://github.com/richierich25/weather-bot/pulls).
 
-
-## 📖 Getting Started
+## 📖 Usage
 
 <img align="right" src="https://i.ibb.co/CJfW18H/ship.gif" width="200"/>
 
@@ -62,17 +60,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer
 
-```bash
-    node@v10.16.0 or higher
-    npm@6.9.0 or higher
-    git@2.17.1 or higher
+```sh
+    $ node@v10.16.0 or higher
+    $ npm@6.9.0 or higher
+    $ git@2.17.1 or higher
 ```
-
-## 🧪 Usage
 
 From your command line, clone and run `weather-bot`
 
-## 💨 Running the Application
+## 💨 Configuration
 
 Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token).
 
