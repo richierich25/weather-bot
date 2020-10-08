@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Weather bot pushing notification to telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richierich25/weather-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "nodejs",
+    "telegram"
+  ],
+  "author": "Richard Abraham",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/richierich25/weather-bot/issues"
+  },
+  "homepage": "https://github.com/richierich25/weather-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}

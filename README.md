@@ -32,7 +32,7 @@
     <a href="#configuration">Configuration</a> •
     <a href="#deployment">Deployment</a> •
     <a href="#technologies-used">Technologies Used</a> •
-    <a href="#for-the-future">For the Future</a> •
+    <a href="#future-scope">Future Scope</a> •
     <a href="#project-maintainers">Project Maintainers</a> •
     <a href="#contributing">Contributing</a> •
   </p><br><br>
@@ -46,11 +46,6 @@
 ![image](https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif)
 <p align="center"><a href="https://developerfolio.js.org/">To view this LIVE</a></p>
 
-Feel free to use it as-is or customize it as much as you want.
-
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/richierich25/weather-bot/issues).
-
-If you created something awesome and want to contribute then feel free to open a [Pull Request](https://github.com/richierich25/weather-bot/pulls).
 
 ## 📖 Usage
 
@@ -111,7 +106,7 @@ We highly recommend to read through the [Deploying on Github Pages](https://docs
 - NodeJS
 - Javascript
 
-## 🚀 For the Future
+## 🚀 Future Scope
 
 If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/richierich25/weather-bot/pulls).
 
@@ -129,6 +124,8 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 </table>
 
 ## 🤝 Contributing
+
+If you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/richierich25/weather-bot/issues).
 
 We encourage you to contribute. Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines on how to proceed.
 
