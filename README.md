@@ -1,5 +1,5 @@
 <a href="https://www.richierich25.com" target="_blank">
-    <img alt="Weather Bot" src="https://user-images.githubusercontent.com/34006942/95367062-e827e000-08f1-11eb-8e6a-b28b6d0e9690.png" title="Weather Bot" align="right" width="200px" />
+    <img alt="Richard Abraham | Website" src="https://user-images.githubusercontent.com/34006942/95367062-e827e000-08f1-11eb-8e6a-b28b6d0e9690.png" title="Richard Abraham | Website" align="right" width="200px" />
 </a>
 
 ⚡️ Weather Bot ⚡️
