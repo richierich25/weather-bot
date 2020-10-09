@@ -1,13 +1,13 @@
-name: Run Weather Bot Job
+name: Run Weather Bot
 
 on:
   push:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 */3 * * *' #after every 3 hours
 
 jobs:
   run_weather_bot:
-    name: Run Weather Bot Job2
+    name: Run Weather Bot Job
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository

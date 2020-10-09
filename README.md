@@ -6,7 +6,7 @@
 ⚡️ Weather Bot ⚡️
 ======================
 
-  <h4 align="center">A NodeJS application that pushes weather notification over Telegram</h4>
+<h4 align="center">A NodeJS application that pushes weather notification over Telegram Bot</h4>
 
 <div align="center"> 
 
@@ -14,7 +14,7 @@
     <a href="https://github.com/richierich25/weather-bot/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/richierich25/weather-bot?color=blue" alt="GitHub License">
     </a>
-      <img src="https://github.com/richierich25/weather-bot/workflows/Weather%20Bot/badge.svg" alt="Weather Bot">
+      <img src="https://github.com/richierich25/weather-bot/workflows/Run%20Weather%20Bot%20Job/badge.svg" alt="Run Weather Bot">
     <img src="https://img.shields.io/github/languages/code-size/richierich25/weather-bot" alt="GitHub code size in bytes">
     <img src="https://img.shields.io/github/commit-activity/w/richierich25/weather-bot" alt="GitHub commit activity">
     <a href="https://github.com/richierich25/weather-bot/issues">
@@ -24,7 +24,7 @@
       <img src="https://img.shields.io/github/v/release/richierich25/weather-bot.svg?style=flat" alt="GitHub Release">
     </a>
       <a href="https://github.com/richierich25/weather-bot/stargazers">
-      <img src="https://img.shields.io/github/stars/richierich25/weather-bot" alt="GitHub License">
+      <img src="https://img.shields.io/github/stars/richierich25/weather-bot" alt="GitHub Stars">
     </a>
   </p>
 
@@ -33,19 +33,23 @@
     <a href="#configuration">Configuration</a> •
     <a href="#deployment">Deployment</a> •
     <a href="#technologies-used">Technologies Used</a> •
-    <a href="#future-scope">Future Scope</a> •
-    <a href="#project-maintainers">Project Maintainers</a> •
     <a href="#contributing">Contributing</a> •
-  </p><br><br>
+    <a href="#contributors">Contributors</a> •
+    <a href="#credits">Credits</a>
+  </p>
+  <br>
 
   <p>
-  The application is powered by Github Actions and developed in Node.js to allow users to push custom weather related notification to their telegram channels using a bot.
-  </p><br>
+    The application is powered by Github Actions to automatically push weather notification to a personal telegram bot at specific intervals. It is built on Javascript making use of NodeJS libraries. 
+  </p>
+  <br>
 
 </div>
 
-![image](https://user-images.githubusercontent.com/34006942/95596196-b5552780-0a6a-11eb-8808-0024a10a5567.png)
-<p align="center"><a href="https://developerfolio.js.org/">To view this LIVE</a></p>
+<img src="https://user-images.githubusercontent.com/34006942/95599220-6ad5aa00-0a6e-11eb-8d81-e6524bf2f960.png">
+<p align="center">
+  <a href="http://t.me/Richierich25_bot">To view this LIVE</a>
+</p>
 
 
 ## 📖 Usage
@@ -54,60 +58,89 @@
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer
+### Prerequisites
+
+You will need the below installed on your computer
+- [Git](https://git-scm.com) _git@2.17.1 or higher_
+- [NodeJS](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) _node@v12 or higher_, _npm@6.9.0 or higher_
+- [Telegram Desktop](https://desktop.telegram.org/) or [Telegram App](https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=en_IN&gl=US)
+
+### Cloning the repository
 
 ```sh
-    $ node@v10.16.0 or higher
-    $ npm@6.9.0 or higher
-    $ git@2.17.1 or higher
+$ git clone https://github.com/richierich25/weather-bot.git
+$ cd weather-bot
+$ npm i 
 ```
-
-From your command line, clone and run `weather-bot`
 
 ## 💨 Configuration
 
-Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token).
+  1. Create a file called `.env` in the root directory of your project. OR
+    *Note*: Instead of creating a `.env` file, create a replica of the `env.example` file provided
 
-  1. Create a file called `.env` in the root directory of your project, check the base file.
-    *Note*: Instead of creating a .env file, you can just run this command "cp env.example .env" inside the root directory
+      ```shell
+      $ cp env.example .env
+      ```
 
-  ```general
-    - DeveloperFolio
-      - node_modules
-      - public
-      - src
-      - .env         <-- create it here
-      - env.example  <-- this is the base file
-      - .gitignore
-      - package-lock.json
-      - package.json
-  ```
+  2. Inside the `.env` file, add key `WEATHER_API_TOKEN` obtained from [OpenWeather App](https://home.openweathermap.org/). One must create an account and copy the API Key from [My API Key Section](https://home.openweathermap.org/api_keys).
 
-  2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
+      ```javascript
+        WEATHER_API_TOKEN = "YOUR OPEN WEATHER API TOKEN HERE"
+      ```
 
-  ```javascript
-    // .env
-    REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
-  ```
+  3. Inside the `.env` file, add key `TELEGRAM_TOKEN` and `TELEGRAM_CHAT_ID` obtained from [Telegram Bots App](https://core.telegram.org/bots). Follow the below steps:
 
-  Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
+      - Click [BotFather](https://t.me/botfather) and open in either Telegram Desktop or Mobile App(search for `@BotFather`)
+      - After opening it, press `start` and type `/newbot`
+      - Provide a name and a username for the bot. **ensure it ends with `bot` at its end**, for instance `Richierich25_bot`
+      - It will provide a link to the newly created bot and provide the `HTTP API Key` or `TELEGRAM_TOKEN`. Open the link provided. **important as the bot has to be started for it to receive messages later**
+      - Press `start` or to start chatting with the newly created bot 
+      - To obtain the `TELEGRAM_CHAT_ID`, search for the `@get_id_bot` account and press`start`
+      - it will provide you your chat id
+
+      ```javascript
+        TELEGRAM_TOKEN = "YOUR TELEGRAM TOKEN HERE"
+        TELEGRAM_CHAT_ID = "YOUR TELEGRAM CHAT ID HERE"
+      ```
+
+  4. Inside the `index.js`, set the `id` corresponding to your city obtained from [here](https://openweathermap.org/find).
+
+      - Enter your desired city name and press `search`, for instance, `Delhi`
+      - Open the first link that pops below
+      - Now from the URL, obtain the id of the format `https://openweathermap.org/city/1273294` where 1273294 will be the ID corresponding to the city
+
+      ```javascript
+        weatherURL.searchParams.set('id', '1273294');  // use the desired id here
+      ```
 
 ## 🖥️ Deployment
 
-When you are done with the setup, you should host your website online.
-We highly recommend to read through the [Deploying on Github Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) docs.
+When you are done with the setup, and have tested locally, we recommend you to deploy it using Github Actions.
+We highly recommend to read through the [Using Github Actions](https://docs.github.com/en/free-pro-team@latest/actions/quickstart) docs.
 
-### Configuring GitHub Actions
+  1. Inside the `.github/workflows/run-weather-bot.yml` file, set the desired time interval in [CRON FORMAT](https://www.freeformatter.com/cron-expression-generator-quartz.html) after which you wish the Application to run and push the notification
 
-- Using the Personal Access Token you placed in the `.env` file earlier create a [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) called `OPEN_SOURCE_TOKEN` where the value matches the token value from the `.env` file in your local workspace.
-- When you are done with the configuration, we highly recommend to read through the [Github Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
+      ```yaml
+        schedule:
+          - cron: '0 */3 * * *' #after every 3 hours
+      ```
 
-## 📙 Technologies Used
+  2. Adding API Tokens and Secrets into the repository
+
+      - Open your repository with the application code
+      - Click on `Settings` from the Github Menu options
+      - Press `Secrets` from the left section
+      - Press `New Secret` and add your tokens one by one by giving it a suitable `Name` and `Value`
+      - Add `WEATHER_API_TOKEN`, `TELEGRAM_TOKEN` and `TELEGRAM_CHAT_ID`
+
+## 🛠️ Technologies Used
 
 - NodeJS
 - Javascript
 
-## 🚀 Future Scope
+## 🤝 Contributing
+
+If you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/richierich25/weather-bot/issues).
 
 If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/richierich25/weather-bot/pulls).
 
@@ -115,24 +148,20 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 - Add other push notification
 - Add emoji support
 
-## Project Maintainers
+We encourage you to contribute. Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines on how to proceed.
 
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <table>
   <tr>
     <td align="center"><a href="htts://www.richierich25.com">
     <img src="https://user-images.githubusercontent.com/34006942/95364922-0e984c00-08ef-11eb-9e3b-48cfd6f844e7.jpg" width="100px;" alt=""/><br /><sub><b>Richard Abraham</b></sub></a></td>
   </tr>
 </table>
-
-## 🤝 Contributing
-
-If you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/richierich25/weather-bot/issues).
-
-We encourage you to contribute. Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines on how to proceed.
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<table>
-  <tr>
-  </tr>
-</table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
+## 👏🏻 Credits
+
+- Original Idea from [Kristian Freeman](https://github.com/signalnerve)
