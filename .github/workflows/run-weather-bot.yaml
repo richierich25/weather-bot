@@ -1,9 +1,8 @@
 name: Run Weather Bot Job
 
 on:
-  # schedule:
-  #   - cron: '* * * * *'
-    workflow_dispatch:
+  schedule:
+    - cron: '* * * * *'
 
 jobs:
   run_weather_bot:
