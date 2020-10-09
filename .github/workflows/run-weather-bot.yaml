@@ -2,7 +2,7 @@ name: Run Weather Bot Job
 
 on:
   schedule:
-    - '*/3 * * * *'
+    - cron: '*/3 * * * *'
 
 jobs:
   run_weather_bot:
