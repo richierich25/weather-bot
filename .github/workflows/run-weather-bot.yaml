@@ -1,8 +1,8 @@
 name: Run Weather Bot Job
 
 on:
-  push:
-    branches: [ main ]
+  schedule:
+    - '*/3 * * * *'
 
 jobs:
   run_weather_bot:
