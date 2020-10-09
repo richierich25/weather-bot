@@ -44,7 +44,7 @@
 
 </div>
 
-![image](https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif)
+![image](https://user-images.githubusercontent.com/34006942/95596196-b5552780-0a6a-11eb-8808-0024a10a5567.png)
 <p align="center"><a href="https://developerfolio.js.org/">To view this LIVE</a></p>
 
 

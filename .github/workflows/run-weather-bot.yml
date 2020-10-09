@@ -1,4 +1,4 @@
-name: Run Weather Bot Job 2
+name: Run Weather Bot Job
 
 on:
   push:
