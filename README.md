@@ -14,7 +14,6 @@
     <a href="https://github.com/richierich25/weather-bot/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/richierich25/weather-bot?color=blue" alt="GitHub License">
     </a>
-      <img src="https://github.com/richierich25/weather-bot/workflows/Run%20Weather%20Bot%20Job/badge.svg" alt="Run Weather Bot">
     <img src="https://img.shields.io/github/languages/code-size/richierich25/weather-bot" alt="GitHub code size in bytes">
     <img src="https://img.shields.io/github/commit-activity/w/richierich25/weather-bot" alt="GitHub commit activity">
     <a href="https://github.com/richierich25/weather-bot/issues">
@@ -26,13 +25,14 @@
       <a href="https://github.com/richierich25/weather-bot/stargazers">
       <img src="https://img.shields.io/github/stars/richierich25/weather-bot" alt="GitHub Stars">
     </a>
+    <img src="https://github.com/richierich25/weather-bot/workflows/Run%20Weather%20Bot/badge.svg" alt="Run Weather Bot">
   </p>
 
   <p align="center">
     <a href="#usage">Usage</a> •
     <a href="#configuration">Configuration</a> •
     <a href="#deployment">Deployment</a> •
-    <a href="#technologies-used">Technologies Used</a> •
+    <a href="#technology-used">Technology Used</a> •
     <a href="#contributing">Contributing</a> •
     <a href="#contributors">Contributors</a> •
     <a href="#credits">Credits</a>
@@ -118,7 +118,7 @@ $ npm i
 When you are done with the setup, and have tested locally, we recommend you to deploy it using Github Actions.
 We highly recommend to read through the [Using Github Actions](https://docs.github.com/en/free-pro-team@latest/actions/quickstart) docs.
 
-  1. Inside the `.github/workflows/run-weather-bot.yml` file, set the desired time interval in [CRON FORMAT](https://www.freeformatter.com/cron-expression-generator-quartz.html) after which you wish the Application to run and push the notification
+  1. Inside the `.github/workflows/run-weather-bot.yml` file, set the desired time interval in [CRON FORMAT](https://www.freeformatter.com/cron-expression-generator-quartz.html) after which you wish the Application to execute and push further notifications
 
       ```yaml
         schedule:
@@ -133,20 +133,19 @@ We highly recommend to read through the [Using Github Actions](https://docs.gith
       - Press `New Secret` and add your tokens one by one by giving it a suitable `Name` and `Value`
       - Add `WEATHER_API_TOKEN`, `TELEGRAM_TOKEN` and `TELEGRAM_CHAT_ID`
 
-## 🛠️ Technologies Used
+## 🛠️ Technology Used
 
 - NodeJS
 - Javascript
 
 ## 🤝 Contributing
 
-If you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/richierich25/weather-bot/issues).
+If you wish to **contribute** and make it much better for other developers, please have a look at [Issues](https://github.com/richierich25/weather-bot/issues).
+
+- Add UI for selecting custom City
+- Customize the message notification
 
 If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/richierich25/weather-bot/pulls).
-
-- Imporove the UI/UX Design
-- Add other push notification
-- Add emoji support
 
 We encourage you to contribute. Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines on how to proceed.
 
