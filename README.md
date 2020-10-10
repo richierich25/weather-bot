@@ -46,7 +46,7 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/34006942/95599220-6ad5aa00-0a6e-11eb-8d81-e6524bf2f960.png">
+<img src="./telegram-bot.png">
 <p align="center">
   <a href="http://t.me/Richierich25_bot">To view this LIVE</a>
 </p>
