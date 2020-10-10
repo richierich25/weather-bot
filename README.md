@@ -25,7 +25,7 @@
       <a href="https://github.com/richierich25/weather-bot/stargazers">
       <img src="https://img.shields.io/github/stars/richierich25/weather-bot" alt="GitHub Stars">
     </a>
-    <img src="https://github.com/richierich25/weather-bot/workflows/Run%20Weather%20Bot/badge.svg" alt="Run Weather Bot">
+    <img src="https://github.com/richierich25/weather-bot/workflows/build/badge.svg" alt="Run Weather Bot">
   </p>
 
   <p align="center">
